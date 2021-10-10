@@ -31,6 +31,7 @@ if(inside2<=document.querySelector('select').value)   second.innerText = `${insi
 // if(inside2==5)first.style.color ='red';
 if(inside1+inside2==document.querySelector('select').value){
     if(inside1>inside2){second.style.color='red';first.style.color='green';}
+  else  if(inside1==inside2){second.style.color='green';first.style.color='green';}
    else {first.style.color='red';second.style.color='green';}
    b1.disabled = true;
  b2.disabled = true;
