@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+ 
+    <main class="container">
+        <img src="https://previews.123rf.com/images/kyzil/kyzil1109/kyzil110900197/10702110-close-up-of-badminton-shuttlecock-on-the-racket-horizontal.jpg" alt="" class ="img-fluid">
+     
+        <div class="intro">Your own score keeper!</div>
+       <center> <div class="playerSelector font-weight-bold" id="#rounds">How many rounds? ->
+            <select name="" class ="custom-select col-3" id="rounds">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five</option>
+                <option value="6">Six</option>
+                <option value="7">Seven</option>
+                <option value="8">Eight</option>
+                <option value="9">Nine</option>
+                <option value="10">Ten</option>
+            </select>
+        </div></center>
+        <div class="ScoreKeeper "><span class="first ">0</span>to<span class="second ">0</span></div>
+         <div id ="suggestion">Use the buttons to play!</div>
+        <div class="row buttons no-gutters">
+            <div class="col-12 col-lg-4"><button type="button" class="btn bg-success button1 text-light " >+1 Player 1</button></div>
+            <div class="col-12 col-lg-4"><button  type="button" class="btn bg-primary button2 text-light">+1 Player 2</button></div>
+            <div class="col-12 col-lg-4"><button type="button" class="btn bg-danger button3 text-light">Reset</button></div>
+        </div>
+       
+    </main>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src = "index.js"></script>
+</body>
+</html>
